@@ -1,16 +1,16 @@
 [package]
 name = "posthog-cli"
-version = "0.3.7"
+version = "0.3.8"
 authors = [
     "David <david@posthog.com>",
     "Olly <oliver@posthog.com>",
     "Hugues <hugues@posthog.com>",
 ]
-description = "The command line interface for PostHog 🦔"
+description = "A fork for the command line interface for PostHog 🦔"
 homepage = "https://posthog.com"
 license = "MIT"
 edition = "2021"
-repository = "https://github.com/PostHog/posthog"
+repository = "https://github.com/joeperpetua/posthog"
 readme = "README.md"
 resolver = "2"
 
@@ -66,4 +66,4 @@ inherits = "release"
 lto = "thin"
 
 [package.metadata.dist]
-npm-package = "cli"
+npm-package = "posthog-cli"

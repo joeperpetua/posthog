@@ -26,7 +26,7 @@ install-path = "~/.posthog"
 # Whether to install an updater program
 install-updater = true
 # A namespace to use when publishing this package to the npm registry
-npm-scope = "@posthog"
+npm-scope = "@joeperpetua"
 # Publish jobs to run in CI
 publish-jobs = ["npm"]
 unix-archive = ".tar.gz"
